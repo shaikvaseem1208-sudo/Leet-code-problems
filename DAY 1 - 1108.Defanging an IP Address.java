@@ -3,7 +3,7 @@ lass Solution {
         StringBuilder sb = new StringBuilder();
         for (char c : address.toCharArray()) {
             if (c == '.') {
-                sb.append("[.]");
+            sb.append("[.]");
             } else {
             sb.append(c);
             }
